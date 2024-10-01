@@ -1,8 +1,8 @@
-import {appwriteUrl} from "./config/config.js"
+import config from "./config/config.js"
 
 function App() {
 
-  console.log(appwriteUrl)
+  console.log(config.appwriteUrl)
 
   return (
     <h1>A blog with appwrite</h1>
